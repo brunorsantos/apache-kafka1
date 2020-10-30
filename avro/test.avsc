@@ -1,0 +1,12 @@
+{"namespace": "JavaSessionize.avro",
+  "type": "record",
+  "name": "testschema",
+  "fields": [
+    {"name": "ip", "type": "string", "doc": "Teste doc"},
+    {"name": "timestamp",  "type": "long", "Doc": "Teste doc1"},
+    {"name": "url",  "type": "string"},
+    {"name": "referrer",  "type": "string"},
+    {"name": "useragent",  "type": "string"},
+    {"name": "sessionid",  "type": ["null","int"], "default": null}
+  ]
+}

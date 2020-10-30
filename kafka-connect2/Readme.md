@@ -1,0 +1,1 @@
+É possivel enviar as configs para os connectors diretamente viculada ao worker quando se está utilizando um connector em modo standalone, ou entao via API quando se está utilizando em modo distributed
